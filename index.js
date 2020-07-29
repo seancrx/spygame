@@ -4,7 +4,7 @@ const path = require('path');
 const categories = require('./categories');
 
 const app = express();
-const port = 3000;
+const port = 5000;
 
 // Game level variables
 let gameRooms = [];
