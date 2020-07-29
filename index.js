@@ -4,7 +4,10 @@ const path = require('path');
 const categories = require('./categories');
 
 const app = express();
-const port = 5000;
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 8000;
+}
 
 // Game level variables
 let gameRooms = [];
