@@ -40,10 +40,10 @@
   <h4 class="bg-dark">Room Code: {roomCode}</h4>
   <div class="my-2"></div>
   <p class="bg-dark">Choose Category:</p>
-  <Select items={categories} bind:selectedValue={selectedCategory}></Select>
+  <Select items={categories} isSearchable={false} isClearable={false} bind:selectedValue={selectedCategory}></Select>
   <div class="my-2"></div>
   <p class="bg-dark">🕵️‍♂️🕵️‍♀️ Number of Players (4-15, 5 or less 1 spy, 6 to 10 2 spies, 11 or more 3 spies):</p>
-  <Select items={numOfPlayers} bind:selectedValue={selectedNumOfPlayers}></Select>
+  <Select items={numOfPlayers} isSearchable={false} isClearable={false} bind:selectedValue={selectedNumOfPlayers}></Select>
   <div class="my-2"></div>
   <button on:click="{startRoom}" class="btn btn-primary">START</button>
   {#if warningMessage}
