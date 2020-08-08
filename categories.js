@@ -13,8 +13,20 @@ const categories = [
   },
   {
     name: "People Among Us",
-    answers: ["Anderson", "Junwei", "Winphong", "Mengpei", "Sean", "Jiexi", "Jasmine", "Valen", "Sylvia", "Wayne", "Bryan", "Jiamin", "Jamie", "Tiveyaah"]
-  }
+    answers: ["Anderson", "Junwei", "Winphong", "Mengpei", "Sean", "Jiexi", "Jasmine", "Valen", "Sylvia", "Wayne", "Bryan", "Jiamin", "Jamie", "Tiveyaah", "Weijian", "Shi er", "Lijun", "Suzie", "Alison", "Harry", "Gabriel", "Ivan", "Joe"]
+  },
+  {
+    name: "Random Household items",
+    answers: ["Shampoo", "Conditioner", "Bodywash", "Soap", "Toothpaste", "Toothbrush", "Hairbrushes", "Floss", "Towel", "Tissue", " Table", "Chair", "Printer", "computer", "spoon", "plate", "fork"]
+  },
+  {
+    name: "Singapore Food",
+    answers: ["Chilli Crab", "Bakuteh", "Bak Chang", "Bak Chor Mee", "Ban Mian", "Chai kway teow", "char siu", "duck rice", "fish ball noodle", "hae mee", "hokkien mee", "kaya toast", "mee pok", "popiah"]
+  },
+  {
+    name: "Singapore Mrt",
+    answers: ["Tuas", "Joo Koon", "Boon Lay", "Lakeside", "chinese garden", "Jurong East", "Kaki Bukit", "Raffles Palce", "Holland Village", "Buona Vista", "Commonwealth", "Yishun", "Redhill", "Orchard", "Ang Mo Kio", "Outram Park", "Sembawang", "Pashir Ris", "Changi", "Bedok"]
+  },
 ];
 
 module.exports = categories;
